@@ -1,0 +1,86 @@
+  
+ body  { 
+   background-image: url("../Img/background-blanco-degradado-12.jpg");  
+   background-repeat: no-repeat;
+   width: 100%;
+   background-attachment: fixed;
+}
+nav img{
+  height: 100% !important;
+} 
+#imgLogo{
+  display:block;
+  margin:auto;
+  margin-top: 55px;
+}
+#imgabuela, #imgaFerr, #imgalau{
+  width: 100px;
+  text-align: center;
+}
+#imgabuela p,#imgaFerr p,#imgalau p {
+  margin-top: 0;
+  font-size: 20px;
+}
+#imgabuela img,#imgaFerr img, #imgalau img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+#imgCard{
+  width: 350px; 
+  height: 350px;
+}
+._2p3a{
+  width: 480px !important;
+}
+.uiScaledImageContainer _2zfr{
+  width: 480px !important;
+}
+#videocard{
+width: 350px; 
+height: 463px ;
+}
+.video-container{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 355px;
+  overflow: hidden;
+}
+/* #facebook, #u_0_4{
+  max-height: 369px;
+  border-bottom-width: 0.989583px;
+  width: 470px;
+}
+#facebook, #u_0_1{
+  height: 130px;
+  width: 473px;
+}
+#facebook, .uiScaledImageContainer _2zfr{
+  width: 472px;
+  height: 175px;
+} */
+/* #videoImportante{
+width: 886px;
+margin-top: 3pc;
+height: 376px
+
+} */
+#videoImportante{
+  width:100%;
+  max-width:600px;
+  }
+  /* Y así se adaptaría al 100% del ancho de página (para webs móviles sería útil) */
+ #videoImportante{
+  width:100%;
+  }
+  #iframePrincipal{
+      width: 212%;
+      margin-left: -346px;
+      height: 497px;
+      margin-top: 46px;
+    } 
+
+#todoVideo{
+  margin-left: 3%;
+}

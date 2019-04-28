@@ -1,0 +1,52 @@
+<div class="navbar-fixed">
+  <nav class="green accent-1">
+    <div class="nav-wrapper container">
+      <a routerLink="/inicio"><img alt="Fundacion" src="../assets/Img/Icono-Recuperado.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="waves-effect waves-teal btn-flat" routerLink="/videos">Videos</a></li>
+        <li><a class="waves-effect waves-teal btn-flat" href="http://localhost:4200/info">Información</a></li>
+        <li><a class="waves-effect waves-teal btn-flat" href="http://localhost:4200/proyectos">Proyectos</a></li>
+        <!-- boton donar -->
+        <li><a href="https://paypal.me/ecoayuda/1" class="btn waves-effect waves-light" type="submit"
+            name="action">Donar</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
+
+<router-outlet></router-outlet>
+
+<footer class="page-footer teal">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Fundación Abuela Ecológica.</h5>
+        <p class="grey-text text-lighten-4">
+
+          Abuela Ecológica
+          nació de la necesidad notoria y plausible de ayudar al medio ambiente ante la crisis que viene
+          profundizándose y busca de manera
+          inagotable el dejar alimento para la fauna, desde hace más de cuatro años la “Abuela” Bertalía González
+          Villalobos de 83 años anda
+          reforestando Zona Norte, está bella señora acompaño en un proyecto que visitó en Muelle de San Carlos.
+        </p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Redes Sociales</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Facebook</a></li>
+          <li><a class="white-text" href="#!">Instagram</a></li>
+          <li><a class="white-text" href="#!">Twiter</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Contactenos</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Telefono</a></li>
+          <li><a class="white-text" href="#!">correo</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
