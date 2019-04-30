@@ -47,30 +47,10 @@ height: 463px ;
   height: 355px;
   overflow: hidden;
 }
-/* #facebook, #u_0_4{
-  max-height: 369px;
-  border-bottom-width: 0.989583px;
-  width: 470px;
-}
-#facebook, #u_0_1{
-  height: 130px;
-  width: 473px;
-}
-#facebook, .uiScaledImageContainer _2zfr{
-  width: 472px;
-  height: 175px;
-} */
-/* #videoImportante{
-width: 886px;
-margin-top: 3pc;
-height: 376px
-
-} */
 #videoImportante{
   width:100%;
   max-width:600px;
   }
-  /* Y así se adaptaría al 100% del ancho de página (para webs móviles sería útil) */
  #videoImportante{
   width:100%;
   }
